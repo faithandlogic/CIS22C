@@ -158,6 +158,7 @@ public class LinkedBag<T> implements BagInterface<T>
 
                 return currentNode;
         } // end getReferenceTo
+        // 
 
         private class Node {
                 private T data; // data stored in this node, T stands for generic type

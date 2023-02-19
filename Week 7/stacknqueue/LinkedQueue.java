@@ -1,3 +1,4 @@
+package stacknqueue;
 /*
  * LinkedQueue.java
  * Professors Prompt: Create a class LinkedQueue. A class that implements the ADT queue by using a chain of nodes that has both head and tail references.

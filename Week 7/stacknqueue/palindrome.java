@@ -1,13 +1,16 @@
+package stacknqueue;
 import java.util.Scanner;
 
 public class palindrome {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.print("Enter a string: ");
-        String myString = input.nextLine();
-        System.out.println(isPalindrome(myString));
-        input.close();
+        // Scanner input = new Scanner(System.in);
+        // System.out.print("Enter a string: ");
+        // String myString = input.nextLine();
+        // System.out.println(isPalindrome(myString));
+        // input.close();
+        System.out.println(mystery(5, 5));
     }
+
 
     public static boolean isPalindrome(String s) {
         LinkedStack<Character> stack = new LinkedStack<>();
