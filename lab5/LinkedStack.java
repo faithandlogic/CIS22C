@@ -1,5 +1,3 @@
-package stacknqueue;
-
 import java.util.EmptyStackException;
 
 public final class LinkedStack<T> implements StackInterface<T> {
