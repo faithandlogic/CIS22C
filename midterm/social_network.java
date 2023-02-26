@@ -1,3 +1,11 @@
+/*
+ * Name: Fatih Sen
+ * Date: 2/25/2023
+ * Course: CIS 22C
+ * Description: This program implements a social network using a dictionary and a list.
+ * Professor: Mirsaeid Abolghasemi
+ * 
+ */
 
 import java.util.Arrays;
 
