@@ -1,4 +1,3 @@
-package stacknqueue;
 
 import java.util.EmptyStackException;
 

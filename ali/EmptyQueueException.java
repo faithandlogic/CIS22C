@@ -1,4 +1,4 @@
-package stacknqueue;
+
 /**
    A class of runtime exceptions thrown by methods to
    indicate that a queue is empty.

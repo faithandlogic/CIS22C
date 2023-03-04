@@ -1,21 +1,19 @@
-package stacknqueue;
-
 /**
    A class of runtime exceptions thrown by methods to
-   indicate that a stack is empty.
+   indicate that a queue is empty.
    @author Frank M. Carrano
    @author Timothy M. Henry
    @version 4.0
 */
-public class EmptyStackException extends RuntimeException
+public class EmptyQueueException extends RuntimeException
 {
-   public EmptyStackException()
+   public EmptyQueueException()
    {
       this(null);
    } // end default constructor
    
-   public EmptyStackException(String message)
+   public EmptyQueueException(String message)
    {
       super(message);
    } // end constructor
-} // end EmptyStackException
+} // end EmptyQueueException
